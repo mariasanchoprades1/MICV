@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Maria Sancho</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div id="nav">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">CV</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#sobre-mi">Sobre Mí <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#proyectos">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="row">
+            <header>
+                <h1> Maria Sancho Prades </h1>
+            </header>
+            <main class="container"></main>
+            <div class="container">
+                <div class="cuerpo">
+                    <div class="card" style="border: none;"> 
+                        <section id="sobre-mi">
+                            <h2>Sobre Mí</h2>
+                            <div class="imagen">
+                                <img src="img/yo.jpg" alt="">
+                            </div>
+                            <div class="contacto-parrafo">
+                                <p class="parrafo-activo"><strong>Diseñadora web</strong></p>
+                            </div>
+                            <div class="contacto-parrafo">
+                                <p class="parrafo-activo"><strong>Webs Funcionales</strong></p>
+                            </div>
+                            <div class="contacto-parrafo">
+                                <p class="parrafo-activo"><strong>Últimas tendencias para ofrecer soluciones
+                                    innovadoras</strong></p>
+                            </div>
+                            <button class="btn btn-primary" id="anterior-sobre-mi">Anterior</button>
+                            <button class="btn btn-secondary" id="siguiente-sobre-mi">Siguiente</button>
+                        </section>
+                    </div>
+                    <section id="proyectos">
+                        <h2>Proyectos</h2>
+                        <p>Al pasar el ratón encima de las cajas se abre el enlace. Desactiva la opción si te molesta.</p>
+                        <div id="interruptor-container">
+                            <div id="interruptor" class="encendido"></div>
+                            <div id="interruptor-labels">
+                                <span>OFF</span>
+                                <span>ON</span>
+                            </div>
+                        </div>
+                        <ul>
+                            <li><a href="http://www.universidadesflorida.com">UNIVERSIDADES</a></li>
+                            <li><a href="http://www.para-dormir.com">PARA DORMIR</a></li>
+                            <li><a href="http://www.noticiasceramica.com">CERAMICA</a></li>
+                        </ul>
+                    </section>
+                    <section id="contacto">
+                        <h2>Contacto</h2>
+                        <div class="contacto-slide">
+                            <p> <strong>Teléfono:</strong> +34 629923149</p>
+                        </div>
+                        <div class="contacto-slide">
+                            <p><strong>Correo electrónico: </strong>m.sancho.p1@gmail.com</p>
+                        </div>
+                        <div class="contacto-slide">
+                            <p><strong>Instagram: </strong>@mariasancho97</p>
+                        </div>
+                        <button id="anterior-contacto">Anterior</button>
+                        <button id="siguiente-contacto">Siguiente</button>
+                    </section>
+                </div>
+                <div class="aside">
+                    <aside class="calendar">
+                        <h2 id="currentMonth"> </h2>
+                        <div class="calendar-grid" id="calendarGrid"></div>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </div>
+    </main>
+    <footer>
+        <p>© 2024 Mi Portafolio de Diseño Web</p>
+    </footer>
+    <script src="js/calendario.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/contacto.js"></script>
+    <script src="js/proyectos.js"></script>
+    <script src="js/sobre-mi.js"></script>
+    <script src="js/formulario.js"></script>
+</body>
+</html>
